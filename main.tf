@@ -8,7 +8,7 @@ terraform {
    backend "s3" {
    bucket = "circle-ci-backend-20220120182327868800000001"
    key    = "terraform/webapp/terraform.tfstate"
-   region = "us-west-1"
+   region = "us-east-1"
  }
   required_version = "> 0.14"
 }
